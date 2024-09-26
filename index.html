@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Importance of Web Development</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">LP Sean</div>
+        <ul class="nav-links">
+            <li><a href="#home" onclick="scrollToSection('home')">Home</a></li>
+            <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Web Development</h1>
+        <p>Web development involves the process of designing, building, and maintaining websites and web applications that operate within a browser. From layout aesthetics to database management, it ensures the online world functions seamlessly.</p>
+        <div class="hero-images">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML5 Logo" title="HTML5">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3 Logo" title="CSS3">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript Logo" title="JavaScript">
+        </div>
+        
+        <button onclick="scrollToSection('about')">Learn More</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Why Web Development Matters</h2>
+        <p>Web development is essential in the modern digital age. It goes beyond creating visually appealing websites. Developers focus on optimizing website speed, accessibility, and user experience, contributing to the success of businesses. Technologies like HTML, CSS, JavaScript, and backend development frameworks help create websites that provide seamless interaction and a positive user experience.</p>
+        <p>Web development is constantly evolving. Developers are required to stay up to date with the latest tools and technologies to ensure their websites meet the demands of an ever-changing digital landscape. A well-developed website can enhance business growth by attracting more users and providing an intuitive platform for their needs.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Developed by Sean Noblejas. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const targetSection = document.getElementById(sectionId);
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    </script>
+</body>
+</html>
