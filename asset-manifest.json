@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ws101-noblejas-navbar/static/css/main.ac85d7df.css",
+    "main.js": "/ws101-noblejas-navbar/static/js/main.f1f7eff2.js",
+    "index.html": "/ws101-noblejas-navbar/index.html",
+    "main.ac85d7df.css.map": "/ws101-noblejas-navbar/static/css/main.ac85d7df.css.map",
+    "main.f1f7eff2.js.map": "/ws101-noblejas-navbar/static/js/main.f1f7eff2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac85d7df.css",
+    "static/js/main.f1f7eff2.js"
+  ]
+}
